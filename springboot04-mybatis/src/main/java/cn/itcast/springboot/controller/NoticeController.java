@@ -36,6 +36,7 @@ public class NoticeController {
 	@PostMapping("/findByPage")
 	public Map<String, Object> findByPage(@RequestParam("page")Integer page, 
 			@RequestParam("rows")Integer rows){
+		System.out.println("========1111111111111111========");
 		return noticeService.findByPage(page, rows);
 	}
 }
