@@ -1,0 +1,4 @@
+# 配置加载多个配置文件
+spring:
+   profiles:
+       active: datasource,mybatis

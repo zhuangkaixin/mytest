@@ -1,0 +1,5 @@
+# 配置MyBatis相关的属性
+mybatis:
+    type-aliases-package: cn.itcast.springboot.domain
+    configLocation: classpath:mybatis-config.xml
+    mapperLocations: classpath:mappers/**/*Mapper.xml
